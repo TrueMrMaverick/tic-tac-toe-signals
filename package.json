@@ -1,0 +1,10 @@
+{
+  "name": "signals-demo",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "npx parcel"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}

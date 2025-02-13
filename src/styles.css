@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 40px);
+  grid-template-rows: repeat(3, 40px);
+
+  font-size: 36px;
+}
+
+.cell {
+  width: 100%;
+  height: 100%;
+
+  border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
